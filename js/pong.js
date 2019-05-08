@@ -128,8 +128,8 @@ class Pong
     }
     clear()
     {
-        this._context.fillStyle = '#000';
-        this._context.fillRect(0, 0, this._canvas.width, this._canvas.height);
+        // this._context.fillStyle = '#ff0';
+        // this._context.fillRect(0, 0, this._canvas.width, this._canvas.height);
     }
     collide(player, ball)
     {
